@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color: #999;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 50px auto;
+}
+
+ol > li:not(:first-child) {
+  margin-top: 10px;
+}
+
+
+.header {
+  width: 100%;
+  height: 450px;
+  background: url("/img/banner.png") no-repeat fixed center center;
+  background-size: cover;
+}
+
+.nav--desktop {
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  z-index: 1;
+}
+
+.nav--desktop__menu__item {
+  color: black;
+  margin: 0 30px 0 0;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.nav--desktop__menu__item:hover {
+  opacity: 1;
+}
+
+.nav--desktop__menu__item--active {
+  opacity: 1;
+}
+
+.fab {
+  all: unset;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  z-index: 2;
+  display: none;
+}
+
+.nav--mobile {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.8);
+}
+
+.nav--mobile__menu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  line-height: 2.5em;
+  font-weight: 700;
+}
+
+.nav--mobile__menu__item {
+  color: white;
+}
+
+
+.title-container {
+  text-align: center;
+}
+
+.page-title {
+  background: white;
+  display: inline-block;
+  padding: 30px;
+  margin: -100px auto 0 auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.content-container {
+  max-width: 800px;
+  padding: 30px;
+  margin: 0 auto 60px auto;
+  text-align: justify;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    height: 300px;
+  }
+
+  .nav--desktop {
+    display: none;
+  }
+
+  .fab {
+    display: block;
+  }
+}

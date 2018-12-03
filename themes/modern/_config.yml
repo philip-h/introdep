@@ -1,0 +1,9 @@
+menu:
+  Home: /
+  What is it?: /what-is
+  What causes it?: /what-cause
+  Do I have it?: /do-have
+  Is it curable?: /can-cure
+  My loved one has it.: /loved-has
+
+favicon: favicon.png
