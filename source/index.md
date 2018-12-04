@@ -10,7 +10,7 @@ A lot of the information on the internet about depression can seem true, but in 
 
 If, through this site, you discover that it’s possible that you may have depression, then please, **seek professional help.** And always know that, even if your feelings don’t work properly, that there’s a random stranger out there on internet land that loves you.
 
-Last thing to note: if you are somewhat annoyed at the vagueness of the page titles and the links (all of the items that are big and visible) then that’s a good thing. When talking about depression, it can be tempting to refer to depression as “it” or “.. you know, that thing I/you struggle with.” 
+Last thing to note: if you are somewhat annoyed at the vagueness of the page titles and the links (all of the items that are big and visible) then that’s a good thing. When talking about depression, it can be tempting to refer to depression as “it” or “... you know, that thing I/you struggle with.” 
 
 **Give it a name!** 
 
