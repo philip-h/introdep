@@ -77,4 +77,6 @@ theme: modern
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: heroku
+  repo: https://git.heroku.com/introdep.git
+  message: Deployed through hexo
